@@ -5,6 +5,16 @@ display_name: "海报口播视频 · 海报+音频合成带字幕竖屏视频"
 displayName: "海报口播视频 · 海报+音频合成带字幕竖屏视频"
 description: 把一张背景图/海报 + 一段音频合成为带烧录字幕的竖屏视频（1080×1920）。适用于海报已自带大标题、系列名、作者署名，只需把口播内容烧成字幕的场景（如搬运 X/Twitter 知名 IP 播客内容做成的系列短视频）。支持 8~30 分钟长音频，内置 whisper.cpp ASR、繁转简、ASR 错词批量修正、开头品牌口播裁剪、jieba 分词折行、ffmpeg 渲染与抽帧验证。触发词：背景图+音频合成视频、海报视频、烧字幕、做第 N 期、口播视频。
 agent_created: true
+version: 1.0.0
+category: productivity
+emoji: "🎬"
+author: jiaxinmmhh
+platforms:
+  - WorkBuddy
+  - QClaw
+  - ima
+  - Claude Code
+  - Cursor
 ---
 
 # Poster Video From Audio（海报 + 口播 → 烧字幕竖屏视频）
